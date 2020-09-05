@@ -26,6 +26,8 @@ margin: 0 auto;
     font-size: 48px;
     width: 829px;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 .first-screen-bottom {
     color: white;
