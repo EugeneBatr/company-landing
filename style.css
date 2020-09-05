@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first-screen {
+    background-image: url("firsrcscr.png");
+    height: 100vh;
+}
+.container {
+width: 80%;
+margin: 0 auto;
+}
+.first-screen-container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ height: 100%;
+}
+.first-screen-title {
+    color: white;
+}
+.first-screen-discription {
+    color: white;
+    font-size: 48px;
+    width: 829px;
+    text-align: center;
+}
+.first-screen-bottom {
+    color: white;
+    padding: 13px 36px 15px ;
+    background-color: #4985FF;
+    border-radius: 30px;
+}
