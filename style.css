@@ -35,3 +35,138 @@ margin: 0 auto;
     background-color: #4985FF;
     border-radius: 30px;
 }
+.services-title {
+    font-size: 36px;
+    line-height: 53px;
+    color: #323232;
+    width: 739px;
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 50px;
+}
+.services-subtitle {
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+    width: 730px;
+}
+.ellipse-big {
+    height: 110px;
+    width: 110px;
+    border-radius: 100px;
+    color: #999999;
+    border: 1px solid #E0E0E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ellipse-small {
+    height: 90px;
+    width: 90px;
+    border: 1px solid #4985FF;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services-item-title {
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    width: 226px;
+    padding-bottom: 12px;
+}
+.services-item-discription {
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999; 
+    width: 222px;
+}
+.services-item {
+    display: flex;
+    justify-content: right;
+}
+.services-text {
+    padding-left: 17px;
+    padding-top: 46px;  
+}
+.services-items {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 55px;
+}
+.services-bottom {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 13px 36px 15px ;
+    background-color: #4985FF;
+    border-radius: 30px;
+    width:  200px;  
+}
+.services__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.services {
+    padding-bottom: 107px;
+}
+.about-us {
+    background: #F6F6F8
+}
+.about-us-title {
+    font-size: 36px;
+    line-height: 53px;
+    color: #323232;
+    width: 424px;
+}
+.about-us-discription {
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+    width: 489px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.about-us-link {
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #4985FF
+}
+.about-us-text {
+    display: flex;
+    flex-direction: column;
+    padding-right: 121px;
+    padding-top: 151px;
+}
+.about-us-info {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+.about-us-picture {
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+.about-us-line {
+    width: 1110px;
+    border: 1px solid #E0E0E0;
+}
+.about-us-progect-number {
+    font-size: 36px;
+    line-height: 53px;
+    color: #000000;
+}
+.about-us-progect-discription {
+    color: #999999;
+}
+.about-us-progect {
+    display: flex;
+    justify-content: right;
+    width: 104px;
+}
