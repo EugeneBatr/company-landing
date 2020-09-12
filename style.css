@@ -210,6 +210,7 @@ margin: 0 auto;
 .all-services-titles {
     display: flex;
     justify-content: right;
+    justify-content: right;
 }
 .all-services-item-title {
     font-size: 18px;
@@ -264,8 +265,29 @@ margin: 0 auto;
     background-color: #4985FF;
     border-radius: 30px;
     width: 200px;
+}   
+@keyframes layout {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
-.all-services-bottoms {
+.test {
     display: flex;
     justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    background-color: green;
+    animation-name: layout;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: ;
+}
+.test:hover {
+    animation-play-state: paused;
 }
